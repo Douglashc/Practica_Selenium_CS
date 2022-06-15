@@ -13,6 +13,10 @@ Memory: 1466M
 Cores: 4
 Non-Bundled Plugins: com.samdark.intellij-visual-studio-code-dark-plus (2.5)
 
+# Clonar y abrir el proyecto 
+
+Clonar el proyecto y abrirlo con su editor de codigo favorito.
+
 # Abrir una nueva terminal en la ruta del proyecto y ejecutar los siguientes comandos
 # Instalar la libreria de Selenium WebDrive con el seguiente comando
 
@@ -22,7 +26,7 @@ pip install selenium
 
 pip install webdriver-manager
 
-# Ejecutar en proyecto
+# Ejecutar el proyecto
 
 Una vez instalada las librerias ejecutar el proyecto 
 
