@@ -9,13 +9,11 @@ import time
 
 if __name__ == '__main__':
 
-    options = webdriver.ChromeOptions()
+    options = Options()
     options.add_argument('--start-maximized')
     options.add_argument('--disable-extensions')
 
-    driver_path = 'C:\\Users\\Hp\\Downloads\\chromedriver.exe'
-
-    driver = webdriver.Chrome(driver_path, chrome_options=options)
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     driver.get('https://www.leagueoflegends.com/')
 
     WebDriverWait(driver, 5) \
