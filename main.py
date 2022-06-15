@@ -29,3 +29,9 @@ if __name__ == '__main__':
         .until(EC.element_to_be_clickable((By.NAME,
                                            'password'))) \
         .send_keys('comida544533')
+
+    WebDriverWait(driver, 5) \
+        .until(EC.element_to_be_clickable((By.CSS_SELECTOR,
+                                           'button.mobile-button mobile-button__submit'.replace(
+                                               ' ', '.')))) \
+        .click()
