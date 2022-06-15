@@ -35,3 +35,5 @@ if __name__ == '__main__':
                                            'button.mobile-button mobile-button__submit'.replace(
                                                ' ', '.')))) \
         .click()
+
+    driver.quit()
