@@ -19,3 +19,8 @@ if __name__ == '__main__':
                                            'a._2I66LI-wCuX47s2um7O7kh riotbar-anonymous-link _3qlG68WiAAf2HCeuzuwHXj riotbar-account-action'.replace(
                                                ' ', '.')))) \
         .click()
+
+    WebDriverWait(driver, 5) \
+        .until(EC.element_to_be_clickable((By.NAME,
+                                           'username'))) \
+        .send_keys('leo161998')
