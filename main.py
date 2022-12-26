@@ -9,6 +9,7 @@ import time
 
 if __name__ == '__main__':
 
+    #Verificar
     options = Options()
     options.add_argument('--start-maximized')
     options.add_argument('--disable-extensions')
